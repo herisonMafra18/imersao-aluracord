@@ -1,5 +1,5 @@
 {
-    "name": "Aluracord - Matrix (peas)",
+    "name": "Tudo sobre animes e mangas",
     "theme": {
       "colors": {
         "primary": {
@@ -12,7 +12,10 @@
           "600": "#2F8132",
           "700": "#207227",
           "800": "#0E5814",
-          "900": "#05400A"
+          "900": "#05400A",
+          "901": "#FF8C00",
+          "902": "#A0522D",
+          "903": "#A9A9A9"
         },
         "neutrals": {
           "000": "#FFFFFF",
