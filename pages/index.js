@@ -90,6 +90,7 @@ export default function PaginaInicial() {
 
             <TextField
               value={username}
+              placeholder="Digite seu usuario Github"
               onChange={function (event) {
                 console.log('usuario digitou', event.target.value);
                 // Onde ta o valor?
