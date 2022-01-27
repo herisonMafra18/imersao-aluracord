@@ -40,8 +40,7 @@ export default function PaginaInicial() {
   // const username = 'omariosouto';
   const [username, setUsername] = React.useState('');
   const roteamento = useRouter();
-
-
+  const [showUserImage, setUserImage] = React.useState("none");
 
     return (
     <>
@@ -94,7 +93,8 @@ export default function PaginaInicial() {
               onChange={function (event) {
                 console.log('usuario digitou', event.target.value);
                 // Onde ta o valor?
-                const valor = event.target.value;
+                const valor = event.target.value
+                if (valor.length > 2);
                 // Trocar o valor da variavel
                 // através do React e avise quem precisa
                 setUsername(valor);
@@ -141,8 +141,8 @@ export default function PaginaInicial() {
               minHeight: '240px',
             }}
           >
-            <Image
-              styleSheet={{
+            <Image 
+              styleSheet={{ 
                 borderRadius: '50%',
                 marginBottom: '16px',
               }}
